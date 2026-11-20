@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 31%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center top;
+  border: 4px solid white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4b8061;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.hero {
+  height: 300px;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  background-image: url("img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  text-shadow: 1px 1px 4px black;
+}
+
+.hero p {
+  text-shadow: 1px 1px 4px black;
+}
+
+
+.site-footer {
+  background-color: #263b32;
+  background-image: url("img/pattern.png");
+  background-repeat: repeat-x;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.card {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/photo2.jpg") center / cover no-repeat;
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  min-height: 200px;
+}
